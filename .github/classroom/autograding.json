@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "JavaScript basic",
+      "setup": "npm install",
+      "run": "npm run test:basic",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
