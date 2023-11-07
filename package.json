@@ -5,7 +5,7 @@
   "type":"module",
   "scripts": {
     "test:basic": "node --test 01-variables.test.js",
-    "test": "node --test --watch --test-reporter spec"
+    "test": "node --test  ./01-variables.test.js"
   },
   "keywords": [],
   "author": "",

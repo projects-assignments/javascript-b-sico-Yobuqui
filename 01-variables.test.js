@@ -13,6 +13,8 @@ describe("Variables en JavaScript", () => {
    it("Pueden contener strings", () => {
 
         // Escribe aquí tu código para hacer pasar el "assert" del test
+        let a = "Hello!";
+        let b = "Somos la P7";
 
         assert.strictEqual(a, "Hello!");
         assert.strictEqual(b, "Somos la P7");
@@ -20,12 +22,17 @@ describe("Variables en JavaScript", () => {
 
    it("Pueden contener numeros", () => {
         // Escribe aquí tu código
+        let c = 2;
+        let d = 1498;
+
         assert.strictEqual(c,2);
         assert.strictEqual(d,1498);
     })
 
     it("Pueden contener booleanos", () => {
         // Escribe aquí tu código
+        let e = Boolean(true);
+        let f = Boolean(false);
 
         assert.strictEqual(e,true);
         assert.strictEqual(f,false);
@@ -33,6 +40,8 @@ describe("Variables en JavaScript", () => {
 
      it("Pueden contener decimales", () => {
         // Escribe aquí tu código
+        let g = 1.45;
+        let h = 45.99999;
 
         assert.strictEqual(g,1.45);
         assert.strictEqual(h,45.99999);
@@ -45,31 +54,41 @@ describe("Variables en JavaScript", () => {
 describe("Operaciones aritmeticas en JavaScript", () => {
     it("Suma", () => {
         // Escribe aquí tu código
-
+        let i = 50;
+        let j = 50;
+        let x = i + j;
         assert.strictEqual(i+j,100);
     })
 
     it("Resta", () => {
         // Escribe aquí tu código
-
+        let k = 15;
+        let l = 5;
+        let x = k - l;
         assert.strictEqual(k-l,10);
     })
 
     it("Multiplicacion", () => {
         // Escribe aquí tu código
-
+        let m = 3;
+        let n = 2;
+        let x = m * n;
         assert.strictEqual(m*n,6);
     })
 
     it("Division", () => {
         // Escribe aquí tu código
-
+        let o = 6;
+        let p = 2;
+        let x = o / p;
         assert.strictEqual(o/p,3);
     })
 
     it("Modulo: Investiga que es el operador modulo (%) en JavaScript para resolver este test", () => {
         // Escribe aquí tu código
-
+        let q = 3;
+        let s = 2;
+        let r = m * n;
         assert.strictEqual(q % r,0);
         assert.strictEqual(s % r,1);
     })
@@ -82,6 +101,7 @@ describe("Comparaciones en JavaScript", () => {
     it("Usando el comparador de igualdad ===", () => {
         const number = 20;
         // Escribe aquí tu código
+        let expression = (number === 19);
 
         assert.strictEqual(expression,false);
     })
@@ -89,7 +109,7 @@ describe("Comparaciones en JavaScript", () => {
     it("Usando el comparador de diferencia !==", () => {
         const language = "JavaScript";
         // Escribe aquí tu código
-
+        let expression = (language !== "JavaScript");
         assert.strictEqual(expression,false);
     })
 })
@@ -97,7 +117,8 @@ describe("Comparaciones en JavaScript", () => {
 describe("Algebra booleana", () => {
     it("Usando el operador AND (&&)", () => {
         // Escribe aquí tu código
-
+        let a = 3;
+        let b = 3;
         const expression = a && b;
 
         assert.strictEqual(expression,true);
@@ -118,6 +139,9 @@ describe("Algebra booleana", () => {
 describe("Operaciones con JavaScript", () => {
     it("Completa las variables que faltan para pasar los tests, toca darle al coco!", () => {
         // Escribe aquí tu código
+        let a = 6;
+        let b = 5;
+        let c = 2;
 
         assert.strictEqual(a+b,11);
         assert.strictEqual(b+c,7);
@@ -126,6 +150,9 @@ describe("Operaciones con JavaScript", () => {
 
     it("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
+        let d = 11;
+        let e = 2;
+        let f = 20;
 
         assert.strictEqual(d*e,22);
         assert.strictEqual(e*f,40);
