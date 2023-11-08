@@ -86,9 +86,9 @@ describe("Operaciones aritmeticas en JavaScript", () => {
 
     it("Modulo: Investiga que es el operador modulo (%) en JavaScript para resolver este test", () => {
         // Escribe aquí tu código
-        let q = 3;
-        let s = 2;
-        let r = m * n;
+        let q = 10;
+        let s = 11;
+        let r = 5;
         assert.strictEqual(q % r,0);
         assert.strictEqual(s % r,1);
     })
@@ -117,8 +117,8 @@ describe("Comparaciones en JavaScript", () => {
 describe("Algebra booleana", () => {
     it("Usando el operador AND (&&)", () => {
         // Escribe aquí tu código
-        let a = 3;
-        let b = 3;
+        let a = true;
+        let b = true;
         const expression = a && b;
 
         assert.strictEqual(expression,true);
@@ -126,7 +126,8 @@ describe("Algebra booleana", () => {
 
     it("Usando el operador OR (||)", () => {
         // Escribe aquí tu código
-
+        let c = false;
+        let d = false;
         const expression = c || d;
 
         assert.strictEqual(expression,false);
@@ -160,6 +161,12 @@ describe("Operaciones con JavaScript", () => {
 
     it("Completa las variables que faltan para pasar los tests", () => {
         // Escribe aquí tu código
+        let a = 10;
+        let b = 100;
+        let c = undefined;
+        let d = "Hello";
+        let e = "Estrella";
+
 
         assert.strictEqual(a > 9, true);
         assert.strictEqual(a < 11, true);
