@@ -9,7 +9,9 @@ describe("Funciones en JavaScript", () => {
         let name = "Rosa";
 
         // Escribe aquí tu funcion "saludar"
-
+        function saludar(name) {
+            return `Hola, ${name}`
+        }
 
         assert.strictEqual(saludar(name),"Hola, Rosa");
     })
